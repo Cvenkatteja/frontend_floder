@@ -1,0 +1,35 @@
+header{
+    text-align:center;
+    border:2px solid black;
+    font-size:3rem;
+    padding: 4rem;
+    margin:0 auto;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:2rem;
+    color:rgba(0,0,0.956)
+
+}
+body{
+    background-color: papayawhip;
+    
+}
+footer{
+    text-align:center;
+    border:2px solid black;
+    font-size:2rem;
+    padding:3rem;
+    margin:0 auto;
+
+}
+.myimage{
+    display: block;
+    margin: auto;
+    height:700px;
+    width:700px ;
+    padding:1rem;
+  
+}
+/* if we use the rem as em we can get the unit size into the multiple time */
+/* for example the font-size:2em */

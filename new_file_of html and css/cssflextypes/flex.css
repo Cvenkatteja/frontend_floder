@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+    font-family:'roboto',sans-serif;
+    min-height:250vh;
+    padding:20px;
+}
+
+.container{
+    max-width:800px;
+    min-height:400px;
+    margin-inline:auto;
+    border:2px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* flex-direction:row; */
+    gap:1rem;
+    /* flex-wrap:wrap; */
+    /* the two combination of the flex-direction and flexwrap is the flex-flow tags  */
+    flex-flow:row wrap;
+    align-content:center;
+
+
+
+}
+.box{
+    min-width:100px;
+    height:100px;
+    /* min-height:100px; */
+    background-color:black;
+    color:white;
+    font-size:2rem;
+    padding:0.5rem;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* this is used for the center the elements */
+
+
+}
+
+.box:nth-child(2){
+    flex-shrink:2 2 40px;
+}

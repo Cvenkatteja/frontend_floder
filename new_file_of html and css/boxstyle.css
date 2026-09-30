@@ -1,0 +1,73 @@
+/* header{
+    box-sizing: content-box;
+    font-size:3rem;
+    text-align:center;
+    border:2px dashed black;
+    padding:0.5em;
+    margin-top: 22px;
+}
+p{
+    font-size:1.5rem;
+    border:2px dotted green;
+    padding:0.5em;
+    margin-top:30px;
+    
+} */
+ /* this is the full time  process and late to shorten  our we 
+ need to use the class attributethis helps us to unnderstand and save the time */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} */
+ .container{
+    text-align: center;
+    font-size:1.5rem;
+    border: 14px double black;
+    margin: 1.5em;
+    /* border-top:4px solid;
+    border-right:4px dotted; */
+    /* margin: 1.5em 2em 2em;  */
+    /* margin-top:1.5em;
+    margin-right:2em;
+    margin-bottom:2em;
+    margin-left:2em; */
+    padding:1.5em;
+    /* padding: 1.5em 2em 3em 4em; */
+    outline: 5px solid purple ;
+    outline-offset:-20px; 
+    /* i have the question of how to add the next line of outside */
+ }
+ .circle{
+    background-color:orange;
+    border:2px solid black;
+    width:100px;
+    height:100px;
+    outline:2.5px solid green;
+    outline-offset:0.45rem;
+    margin:20px;
+    border-radius:70px;
+    display:inline-block;
+    padding:10px;
+    
+
+ }
+
+ .red{
+   background-color: green;
+
+ }
+ .green{
+   background-color:orange;
+ }
+
+ body{
+   display:flex;
+   flex-direction:column;
+   margin:7px;
+   background-color:beige;
+
+ }
+ /* text-indent is used to  the  start the intial  */
+ /* typography is the way that text is arranged and presented */
